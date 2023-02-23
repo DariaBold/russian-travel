@@ -12,3 +12,4 @@
 CSS
 HTML
 сайт Figma
+сам сайт https://dariabold.github.io/russian-travel/
