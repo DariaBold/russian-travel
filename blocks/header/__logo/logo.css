@@ -1,0 +1,10 @@
+.header__logo{
+  background-image: url(../../../images/logo/logo.svg);
+  display: flex;
+  justify-items: start;
+  height: 52px;
+  width: 176px;
+  background-repeat: no-repeat;
+  margin-top: 28px;
+  margin-left: 48px;
+}

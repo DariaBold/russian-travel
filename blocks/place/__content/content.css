@@ -1,0 +1,8 @@
+.place__content{
+    padding-top: 48px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(145px, 1fr));
+    gap: 40px;
+    grid-auto-flow: column;
+}

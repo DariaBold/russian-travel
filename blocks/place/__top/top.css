@@ -1,0 +1,7 @@
+.place__top{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(76px, 1fr));
+    gap: 40px;
+    grid-auto-flow: row;
+}

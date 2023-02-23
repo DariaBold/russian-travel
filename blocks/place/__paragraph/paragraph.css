@@ -1,0 +1,12 @@
+.place__paragraph{
+    max-width: 484px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: left;
+    margin: 0;
+}
+.place__paragraph:nth-child(2n){
+    margin-top: 26px;
+}

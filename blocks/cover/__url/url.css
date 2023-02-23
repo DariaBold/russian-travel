@@ -1,0 +1,9 @@
+.cover__url{
+    text-align: center;
+    grid-column: 1;
+    grid-row: 1;
+    margin: auto;
+    z-index: 1;
+    color: white;
+    text-decoration: none;
+}
