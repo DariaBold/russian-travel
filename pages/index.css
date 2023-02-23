@@ -31,8 +31,8 @@
 @import url(../blocks/place/__paragraph/paragraph.css);
 @import url(../blocks/place/__title/title.css);
 @import url(../blocks/place/__url/url.css);
-@import url(../blocks/place/__url/__header/header.css);
-@import url(../blocks/place/__url/__site/site.css);
+@import url(../blocks/place/__url/url-header.css);
+@import url(../blocks/place/__url/url-site.css);
 @import url(../blocks/place/__top/top.css);
 @import url(../blocks/place/__content/content.css);
 
