@@ -1,10 +1,10 @@
-.place__url__site{
+.place__url-site{
     font-size: 18px;
     font-weight: 400;
     line-height: 22px;
     text-align: left;
     color: white;
 }
-.place__url__site:hover{
+.place__url-site:hover{
     opacity: 70%;
 }
