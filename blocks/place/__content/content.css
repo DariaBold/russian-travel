@@ -6,3 +6,9 @@
     gap: 40px;
     grid-auto-flow: column;
 }
+@media screen and (max-width:750px) {
+    .place__content {
+        grid-auto-flow: row;
+    }
+    
+}

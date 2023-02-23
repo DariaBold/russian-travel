@@ -1,6 +1,7 @@
 @import url(../vendor/normalize.css);
 
-@import url(../blocks/page/pages.css);
+@import url(../fonts/fonts.css);
+@import url(../blocks/page/page.css);
 
 @import url(../blocks/header/__logo/logo.css);
 @import url(../blocks/header/header.css);
@@ -78,9 +79,6 @@
         max-height: 640px;
         max-width: 1024px;
     }
-    .places{
-        margin-left: 48px;
-    }
     .place__content{
         gap: 32px;
     }
@@ -96,11 +94,20 @@
         max-height: 480px;
         max-width: 768px;
     }
+    .lead__title {
+        font-size: calc(12 * 2.3vw - 30px* 3.1 );
+        line-height: calc(12 * 2.3vw - 30px* 3.1 );
+    }
     .intro{
         padding-top: 88px;
         max-width: 720px;
         width: 100%;
-        margin-left: 24px;
+    }
+    .intro__text{
+        max-width: 720px;
+    }
+    .intro__subtitle{
+        max-width: 640px;
     }
     .lead__caption{
         margin-left: 24px;
@@ -120,9 +127,6 @@
         max-height: 480px;
         max-width: 768px;
     }
-    .places{
-        margin-left: 24px;
-    }
     .place__paragraph:nth-child(2n){
         margin-top: 25px;
     }
@@ -137,6 +141,30 @@
     }
     .footer {
         padding-top: 88px;
+    }
+}
+@media screen and (max-width: 549px){
+.lead__title {
+    font-size: 42px;
+    line-height: 42px;
+}
+}
+@media screen and (max-width: 443px){
+    .place__content {
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        grid-auto-flow: row;
+    }
+    .place__top {
+        grid-template-columns: repeat(auto-fit, minmax(min-content, 320px));
+        grid-template-rows: repeat(auto-fit, minmax(76px, 1fr));
+    }
+    .place__title {
+        font-size: calc(72px - 4.8vw);
+        line-height: 76px;
+        max-width: 300px;
+    }
+    .photo-grid {
+    grid-template-columns: repeat(auto-fit, minmax(296px, 1fr));
     }
 }
 @media screen and (max-width: 320px) {
@@ -256,6 +284,8 @@
     }
     .footer__link {
         padding-bottom: 0;
+        font-size: 24px;
+        line-height: 24px;
     }
     .footer__copyright{
         font-size: 14px;
