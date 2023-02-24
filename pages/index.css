@@ -141,14 +141,18 @@
 }
 @media screen and (max-width: 724px) {
     .lead__title {
-        font-size: calc(12 * 2.3vw - 30px* 3.1 );
-        line-height: calc(12 * 2.3vw - 30px* 3.1 );
+        font-size: calc(96px  - 1.1*3vw);
+        line-height: calc(96px  - 1.1*3vw);
+    }
+    .lead__subtitle {
+        font-size: 6vw;
+        line-height: 100%;
     }
 }
-@media screen and (max-width: 555px){
+@media screen and (max-width: 580px){
     .lead__title {
-        font-size: 42px;
-        line-height: 42px;
+        font-size: 12vw;
+        line-height: 100%;
     }
 }
 @media screen and (max-width: 455px){
@@ -158,7 +162,7 @@
 }
 @media screen and (max-width: 443px){
     .place__content {
-        grid-template-columns: repeat(auto-fit, minmax(280px, 330));
+        grid-template-columns: repeat(auto-fit, minmax(280px, 330px));
         grid-auto-flow: row;
     }
     .place__top {
