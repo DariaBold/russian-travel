@@ -8,6 +8,8 @@
     margin-right: 18px;
     color: white;
     text-decoration: none;
+    font-family: "Inter", "Arial", sans-serif;
+    font-style: normal;
 }
 .footer__link:last-child{
     margin-right: 0;

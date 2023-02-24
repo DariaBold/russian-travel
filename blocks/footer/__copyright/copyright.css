@@ -7,4 +7,6 @@
     margin: 0;
     grid-row: 1;
     align-self: center;
+    font-family: "Inter", "Arial", sans-serif;
+    font-style: normal;
 }
