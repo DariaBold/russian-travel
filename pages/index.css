@@ -148,6 +148,8 @@
         font-size: 42px;
         line-height: 42px;
     }
+}
+@media screen and (max-width: 455px){
     .place__content {
         grid-template-columns: repeat(auto-fit, minmax(410px, 1fr));
     }
