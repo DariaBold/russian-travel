@@ -4,4 +4,5 @@
     grid-template-rows: repeat(auto-fit, minmax(76px, 1fr));
     gap: 40px;
     grid-auto-flow: row;
+    max-width: 100%;
 }

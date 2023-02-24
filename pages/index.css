@@ -55,6 +55,7 @@
     }
     .place__content {
         margin-left: 148px;
+        gap: 40px;
     }
     .place__img {
         margin-left: 148px;
@@ -68,15 +69,14 @@
     .intro__list {
         margin-left: 148px;
     }
-    .place__content {
-        gap: 32px;
-    }
-}@media screen and (max-width: 1280px) {
+}
+@media screen and (max-width: 1280px) {
     .place__title {
         margin-left: calc(48px + (148 - 48) * ((100vw - 1024px) / (1280 - 1024)));
     }
     .place__content {
         margin-left: calc(48px + (148 - 48) * ((100vw - 1024px) / (1280 - 1024)));
+        gap: 32px;
     }
     .intro__title {
         margin-left: calc(48px + (148 - 48) * ((100vw - 1024px) / (1280 - 1024)));
@@ -89,9 +89,6 @@
     }
     .place__img {
         margin-left: calc(48px + (148 - 48) * ((100vw - 1024px) / (1280 - 1024)));
-    }
-    .place__content {
-        gap: 32px;
     }
 }
 @media screen and (max-width: 1024px) {
@@ -103,6 +100,7 @@
     }
     .place__content {
         margin-left: calc(24px + (48 - 24) * ((100vw - 768px) / (1024 - 768)));
+        gap: calc(32px + (40 - 32) * ((100vw - 768px) / (1024 - 768)));
     }
     .intro__title {
         margin-left: calc(24px + (48 - 24) * ((100vw - 768px) / (1024 - 768)));
@@ -115,6 +113,7 @@
     }
     .place__img {
         margin-left: calc(24px + (48 - 24) * ((100vw - 768px) / (1024 - 768)));
+        max-width: -webkit-fill-available;
     }
     .lead__map {
         padding-top: 56px;
@@ -141,9 +140,6 @@
     .cover__img {
         max-height: 640px;
         max-width: 1024px;
-    }
-    .place__content{
-        gap: 32px;
     }
 }
 @media screen and (max-width: 900px) {
@@ -172,6 +168,7 @@
     }
     .place__content {
         margin-left: calc(16px + (24 - 16) * ((100vw - 320px) / (768 - 320)));
+        gap: calc(28px + (32 - 28) * ((100vw - 320px) / (768 - 320)));
     }
     
     .intro__title {
@@ -248,6 +245,7 @@
     .place__img {
         margin-left: calc(16px + (24 - 16) * ((100vw - 320px) / (768 - 320)));
         width: calc(100% - 12vw);
+        max-width: fit-content;
     }
     .place__url{
         margin-left: calc(16px + (24 - 16) * ((100vw - 320px) / (768 - 320)));
@@ -255,6 +253,7 @@
     .place__paragraph {
         margin-left: calc(16px + (24 - 16) * ((100vw - 320px) / (768 - 320)));
     }
+
 }
 @media screen and (max-width: 523px){
     .place__paragraph {
