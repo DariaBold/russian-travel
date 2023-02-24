@@ -6,6 +6,8 @@
     line-height: 29px;
     text-align: left;
     margin: 0;
+    font-family: "Inter", "Arial ", sans-serif;
+    font-style: normal;
 }
 .place__paragraph:nth-child(2n){
     margin-top: 26px;
