@@ -94,10 +94,6 @@
         max-height: 480px;
         max-width: 768px;
     }
-    .lead__title {
-        font-size: calc(12 * 2.3vw - 30px* 3.1 );
-        line-height: calc(12 * 2.3vw - 30px* 3.1 );
-    }
     .intro{
         padding-top: 88px;
         max-width: 720px;
@@ -141,6 +137,12 @@
     }
     .footer {
         padding-top: 88px;
+    }
+}
+@media screen and (max-width: 724px) {
+    .lead__title {
+        font-size: calc(12 * 2.3vw - 30px* 3.1 );
+        line-height: calc(12 * 2.3vw - 30px* 3.1 );
     }
 }
 @media screen and (max-width: 555px){
