@@ -215,9 +215,6 @@
     .place__paragraph:nth-child(2n){
         margin-top: 25px;
     }
-    .place__content{
-        gap: 28px;
-    }
     .cover {
         margin-top: 90px;
     }
@@ -239,9 +236,6 @@
     }
 }
 @media screen and (max-width: 678px) {
-    .place__url {
-        grid-column: 1;
-    }
     .place__img {
         margin-left: calc(16px + (24 - 16) * ((100vw - 320px) / (768 - 320)));
         width: calc(100% - 12vw);
@@ -249,6 +243,7 @@
     }
     .place__url{
         margin-left: calc(16px + (24 - 16) * ((100vw - 320px) / (768 - 320)));
+        grid-column: 1;
     }
     .place__paragraph {
         margin-left: calc(16px + (24 - 16) * ((100vw - 320px) / (768 - 320)));
