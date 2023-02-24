@@ -5,7 +5,7 @@
     text-align: left;
     margin: 0;
     max-width: 460px;
-    width: 100%;
+    width: min-content;
     font-family: "Inter", "Arial", sans-serif;
     font-style: normal;
 }
