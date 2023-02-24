@@ -157,8 +157,10 @@
     }
 @media screen and (max-width: 768px) {
     .header__logo {
-        margin-left: 24px;
-    }
+        margin-left: calc(16px + (24 - 16) * ((100vw - 320px) / (768 - 320)));
+        height: calc(42px + (52 - 42) * ((100vw - 320px) / (768 - 320)));
+        width: calc(142px + (176 - 142) * ((100vw - 320px) / (768 - 320)));
+        }
     .header__link-en {
         margin-right: 24px;
     }
@@ -182,6 +184,9 @@
         max-height: 480px;
         max-width: 768px;
     }
+    .lead__map {
+        padding-top: calc(40px + (56 - 40) * ((100vw - 320px) / (768 - 320)));
+    }
     .intro{
         padding-top: 88px;
         max-width: 720px;
@@ -196,6 +201,15 @@
     }
     .lead__caption{
         margin-left: 24px;
+    }
+    .lead__title {
+        font-size: calc(40px + (96 - 40) * ((100vw - 320px) / (768 - 320)));
+        line-height: 100%;
+        padding-bottom: calc(16px + (32 - 16) * ((100vw - 320px) / (768 - 320)));
+    }
+    .lead__subtitle {
+        font-size: calc(16px + (30 - 16) * ((100vw - 320px) / (768 - 320)));
+        line-height: 100%;
     }
     .photo-grid{
         margin: 88px 24px;
@@ -225,16 +239,7 @@
         padding-top: 88px;
     }
 }
-@media screen and (max-width: 724px) {
-    .lead__title {
-        font-size: calc(96px  - 1.1*3vw);
-        line-height: calc(96px  - 1.1*3vw);
-    }
-    .lead__subtitle {
-        font-size: 6vw;
-        line-height: 100%;
-    }
-}
+
 @media screen and (max-width: 688px) {
     .place__img {
         margin-left: calc(16px + (24 - 16) * ((100vw - 320px) / (688 - 320)));
@@ -253,12 +258,6 @@
 @media screen and (max-width: 523px){
     .place__paragraph {
         width: fit-content;
-    }
-}
-@media screen and (max-width: 580px){
-    .lead__title {
-        font-size: 12vw;
-        line-height: 100%;
     }
 }
 @media screen and (max-width: 455px){
@@ -312,6 +311,8 @@
     .header__logo {
         margin-left: 16px;
         margin-top: 16px;
+        width: 142px;
+        height: 42px;
     }
     .header__link-en {
         margin-right: 16px;

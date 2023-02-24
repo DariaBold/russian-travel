@@ -3,7 +3,7 @@
     font-size: 30px;
     line-height: 36px;
     text-align: center;
-    height: 72px;
+    height: fit-content;
     max-width: 640px;
     margin: auto;
     font-family: "Inter", "Arial", sans-serif;
