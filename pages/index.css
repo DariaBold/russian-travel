@@ -151,7 +151,7 @@
 }
 @media screen and (max-width: 455px){
     .place__content {
-        grid-template-columns: repeat(auto-fit, minmax(410px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(410px, 455px));
     }
 }
 @media screen and (max-width: 443px){
