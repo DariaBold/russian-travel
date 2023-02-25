@@ -1,0 +1,19 @@
+.header__lang-link {
+    color:white;
+    font-family: "Inter", "Arial", sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.66px;
+}
+@media screen and (max-width: 768px) {
+    .header__lang-link {
+        font-size: calc(18px + (24 - 18) * ((100vw - 320px) / (768 - 320)));
+    }
+}
+@media screen and (max-width: 320px) {
+    .header__lang-link {
+        font-size: 18px;
+    }
+}

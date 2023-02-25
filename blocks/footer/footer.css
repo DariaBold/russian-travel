@@ -1,8 +1,23 @@
-.footer{
-    font-family: 'Inter', sans-serif;
+.footer {
+    font-family: "Inter", "Arial", sans-serif;
     background-color: #2A2C2F;
     color: white;
     padding-top: 92px;
     padding-bottom: 24px;
-    max-width: 1280px;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer {
+        padding-top: calc(88px + (92 - 88) * ((100vw - 768px) / (1024 - 768)));
+    }
+}
+@media screen and (max-width: 768px) {
+    .footer {
+        padding-top: calc(64px + (88 - 64) * ((100vw - 320px) / (768 - 320)));
+    }
+}
+@media screen and (max-width: 320px) {
+    .footer {
+        padding-top: 64px;
+    }
 }

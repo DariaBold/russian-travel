@@ -1,0 +1,6 @@
+.header__list{
+    display: inline-block;
+}
+.header__list:first-child{
+    margin-right: 18px;
+}

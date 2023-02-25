@@ -1,4 +1,4 @@
-.place__title{
+.place__title {
     font-size: 72px;
     font-weight: 900;
     line-height: 76px;
@@ -8,4 +8,47 @@
     width: min-content;
     font-family: "Inter", "Arial", sans-serif;
     font-style: normal;
+}
+@media screen and (min-width: 1280px) {
+    .place__title {
+        margin-left: 148px;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .place__title {
+        margin-left: calc(48px + (148 - 48) * ((100vw - 1024px) / (1280 - 1024)));
+    }
+}
+@media screen and (max-width: 1024px) {
+    .place__title {
+        margin-left: calc(24px + (48 - 24) * ((100vw - 768px) / (1024 - 768)));
+        font-size: calc(42px + (72 - 42) * ((100vw - 768px) / (1024 - 768)));
+        line-height: calc(46px + (76 - 46) * ((100vw - 768px) / (1024 - 768)));
+        max-width: 440px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .place__title {
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    }
+}
+@media screen and (max-width: 768px) {
+    .place__title {
+        margin-left: calc(16px + (24 - 16) * ((100vw - 320px) / (768 - 320)));
+        font-size: calc(32px + (42 - 32) * ((100vw - 320px) / (768 - 320)));
+        line-height: calc(35px + (46 - 35) * ((100vw - 320px) / (768 - 320)));
+        min-width: 330px;
+    }
+}
+@media screen and (max-width: 568px) {
+    .place__title {
+        min-width: 290px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .place__title {
+        font-size: 32px;
+        line-height: 35px;
+        max-width: 288px;
+    }
 }

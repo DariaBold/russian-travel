@@ -1,8 +1,36 @@
-.place__top{
+.place__top {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+    /*grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));*/
     grid-template-rows: repeat(auto-fit, minmax(76px, 1fr));
-    gap: 40px;
+    gap: 48px 40px;
     grid-auto-flow: row;
     max-width: 100%;
+}
+@media screen and (max-width: 1280px) {
+    .place__top {
+        gap: 48px calc(32px + (40 - 32) * ((100vw - 1024px) / (1280 - 1024)));
+    }
+}
+@media screen and (max-width: 1024px) {
+    .place__top {
+        gap: 48px calc(28px + (32 - 28) * ((100vw - 768px) / (1024 - 768)));
+        grid-template-rows: repeat(auto-fit, minmax( calc(46px + (76 - 46) * ((100vw - 768px) / (1024 - 768))), 1fr));
+    }
+}
+@media screen and (max-width: 768px) {
+    .place__top {
+        gap: 48px calc(32px + (28 - 32) * ((100vw - 320px) / (768 - 320)));
+        grid-template-rows: repeat(auto-fit, minmax( calc(35px + (46 - 35) * ((100vw - 320px) / (768 - 320))), 1fr));
+    }
+}
+@media screen and (max-width: 688px) {
+    .place__top {
+        gap: 32px
+    }
+}
+
+@media screen and (max-width: 366px){
+    .place__top {
+        grid-template-columns: repeat(auto-fit, minmax(min-content, 330px));
+    }
 }

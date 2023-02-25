@@ -9,3 +9,23 @@
     font-family: "Inter", "Arial", sans-serif;
     font-style: normal;
 }
+@media screen and (min-width: 1280px) {
+    .intro__list {
+        margin-left: 148px;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .intro__list {
+        margin-left: calc(48px + (148 - 48) * ((100vw - 1024px) / (1280 - 1024)));
+    }
+}
+@media screen and (max-width: 1024px) {
+    .intro__list {
+        margin-left: calc(24px + (48 - 24) * ((100vw - 768px) / (1024 - 768)));
+    }
+}
+@media screen and (max-width: 768px) {
+    .intro__list {
+        margin-left: calc(16px + (24 - 16) * ((100vw - 320px) / (768 - 320)));
+    }
+}

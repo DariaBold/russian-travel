@@ -3,3 +3,27 @@
     max-width: 984px;
     width: 100%;
 }
+@media screen and (max-width: 1280px) {
+    .lead__img {
+        max-height: calc(580px + (615 - 580) * ((100vw - 1024px) / (1280 - 1024)));
+        max-width: calc(928px + (984 - 928) * ((100vw - 1024px) / (1280 - 1024)));
+    }
+}
+@media screen and (max-width: 1024px) {
+    .lead__img {
+        max-height: calc(480px + (580 - 480) * ((100vw - 768px) / (1024 - 768)));
+        max-width: calc(768px + (928 - 768) * ((100vw - 768px) / (1024 - 768)));
+    }
+}
+@media screen and (max-width: 768px) {
+    .lead__img {
+        max-height: calc(200px + (480 - 200) * ((100vw - 320px) / (768 - 320)));
+        max-width: calc(320px + (768 - 320) * ((100vw - 320px) / (768 - 320)));
+    }
+}
+@media screen and (max-width: 320px) {
+    .lead__img {
+        max-height: 200px;
+        max-width: 320px;
+    }
+}

@@ -1,7 +1,38 @@
 .cover{
     display: grid;
-    margin-top: 92px;
+    margin: 92px auto 0;
     justify-content: center;
     grid-template-columns: minmax(320px, 1184px);
-    grid-template-rows: minmax(200px, 740px);
+    opacity: 0.8;
+    max-width: 1280px;
+}
+@media screen and (max-width: 1280px) {
+    .cover {
+        margin-left: calc(0px + (48 - 0) * ((100vw - 1024px) / (1280 - 1024)));
+        margin-right: calc(0px + (48 - 0) * ((100vw - 1024px) / (1280 - 1024)));
+    }
+}
+@media screen and (max-width: 1024px) {
+    .cover {
+        margin-top: calc(90px + (92 - 90) * ((100vw - 768px) / (1024 - 768)));
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    .cover {
+        margin-top: calc(66px + (90 - 66) * ((100vw - 320px) / (768 - 320)));
+    }
+}
+
+@media screen and (max-width: 338px){
+    .cover {
+        grid-template-columns: minmax(300px, max-content);
+    }
+}
+@media screen and (max-width: 320px) {
+    .cover {
+        margin-top: 66px;
+        grid-template-rows: 200px;
+    }
 }

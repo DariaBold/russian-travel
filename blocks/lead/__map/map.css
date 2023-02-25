@@ -4,3 +4,23 @@
     display: grid;
     justify-content: center;
 }
+@media screen and (max-width: 1280px) {
+    .lead__map {
+        padding-top: calc(56px + (64 - 56) * ((100vw - 1024px) / (1280 - 1024)));
+    }
+}
+@media screen and (max-width: 1024px) {
+    .lead__map {
+        padding-top: 56px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .lead__map {
+        padding-top: calc(40px + (56 - 40) * ((100vw - 320px) / (768 - 320)));
+    }
+}
+@media screen and (max-width: 320px) {
+    .lead__map {
+        padding-top: 40px;
+    }
+}

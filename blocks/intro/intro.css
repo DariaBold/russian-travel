@@ -1,4 +1,21 @@
-.intro{
+.intro {
     padding-top: 92px;
     width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+@media screen and (max-width: 1024px) {
+    .intro {
+        padding-top: calc(88px + (92 - 88) * ((100vw - 768px) / (1024 - 768)));
+    }
+}
+@media screen and (max-width: 768px) {
+    .intro{
+        padding-top: calc(64px + (88 - 64) * ((100vw - 320px) / (768 - 320)));
+    }
+}
+@media screen and (max-width: 320px) {
+    .intro {
+        padding-top: 64px;
+    }
 }

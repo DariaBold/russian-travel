@@ -1,5 +1,25 @@
 .footer__info{
     max-width: 1184px;
-    margin: auto 48px;
+    padding-left: 48px;
+    padding-right: 48px;
     display: grid;
+    margin: 0 auto;
+}
+@media screen and (max-width: 1024px) {
+    .footer__info {
+        padding-left: calc(24px + (48 - 24) * ((100vw - 768px) / (1024 - 768)));
+        padding-right: calc(24px + (48 - 24) * ((100vw - 768px) / (1024 - 768)));
+    }
+}
+@media screen and (max-width: 768px) {
+    .footer__info {
+        padding-left: calc(16px + (24 - 16) * ((100vw - 320px) / (768 - 320)));
+        padding-right: calc(16px + (24 - 16) * ((100vw - 320px) / (768 - 320)));
+    }
+}
+@media screen and (max-width: 320px) {
+    .footer__info {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
 }

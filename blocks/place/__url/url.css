@@ -1,6 +1,12 @@
-.place__url{
+.place__url {
     margin: 0;
     text-align: left;
     align-self: end;
     grid-column: 2;
+}
+@media screen and (max-width: 688px) {
+    .place__url{
+        margin-left: calc(16px + (24 - 16) * ((100vw - 320px) / (688 - 320)));
+        grid-column: 1;
+    }
 }

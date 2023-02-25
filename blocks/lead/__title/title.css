@@ -11,3 +11,18 @@
     font-family: "Inter", "Arial", sans-serif;
     font-style: normal;
 }
+@media screen and (max-width: 768px) {
+    .lead__title {
+        font-size: calc(40px + (96 - 40) * ((100vw - 320px) / (768 - 320)));
+        padding-bottom: calc(16px + (32 - 16) * ((100vw - 320px) / (768 - 320)));
+        line-height: calc(44px + (100 - 44) * ((100vw - 320px) / (768 - 320)));;
+    }
+}
+@media screen and (max-width: 320px) {
+    .lead__title {
+        font-size: 40px;
+        line-height: 44px;
+        max-width: 288px;
+        padding-bottom: 16px;
+    }
+}

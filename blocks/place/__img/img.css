@@ -1,7 +1,53 @@
-.place__img{
+.place__img {
     max-width: 460px;
     max-height: 460px;
     width: 100%;
-    height: 100%;
-    object-fit: contain;
+}
+@media screen and (min-width: 1280px) {
+    .place__img {
+        margin-left: 148px;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .place__img {
+        margin-left: calc(48px + (148 - 48) * ((100vw - 1024px) / (1280 - 1024)));
+        max-width: calc(440px + (460 - 440) * ((100vw - 1024px) / (1280 - 1024)));
+    }
+}
+@media screen and (max-width: 1024px) {
+    .place__img {
+        margin-left: calc(24px + (48 - 24) * ((100vw - 768px) / (1024 - 768)));
+        max-width: calc(340px + (480 - 340) * ((100vw - 768px) / (1024 - 768)));
+    }
+}
+@media screen and (max-width: 768px) {
+    .place__img {
+        margin-left: calc(0px + (24 - 0) * ((100vw - 320px) / (768 - 320)));
+
+        max-width: calc(320px + (340 - 320) * ((100vw - 320px) / (768 - 320)));
+    }
+}
+@media screen and (max-width: 688px) {
+    .place__img {
+        width: calc(100% - 12vw);
+        max-width: fit-content;
+        margin-right: calc(0px + (24 - 0) * ((100vw - 320px) / (688 - 320)));
+    }
+}
+@media screen and (max-width: 688px) {
+    .place__img {
+        width: 100%;
+        max-width: min-content;
+    }
+}
+@media screen and (max-width: 495px) {
+    .place__img {
+        margin: 0;
+    }
+}
+@media screen and (max-width: 320px) {
+    .place__img {
+        max-width: 320px;
+        max-height: 320px;
+    }
 }

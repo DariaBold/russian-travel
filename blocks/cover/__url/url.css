@@ -1,4 +1,4 @@
-.cover__url{
+.cover__url {
     text-align: center;
     grid-column: 1;
     grid-row: 1;
@@ -6,4 +6,7 @@
     z-index: 1;
     color: white;
     text-decoration: none;
+}
+.cover__url:hover {
+    opacity: 0.3;
 }

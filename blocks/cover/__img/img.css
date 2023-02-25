@@ -1,13 +1,33 @@
-.cover__img{
+.cover__img {
     background-image: url("../../../images/do-baikala.png");
     max-height: 740px;
     max-width: 1184px;
     width: 100%;
     height: 100%;
-    opacity: 70%;
     display: grid;
     grid-row: 1;
     grid-column: 1;
     margin: auto;
     background-position: center center;
+}
+@media screen and (max-width: 1280px) {
+    .cover__img {
+        min-height: calc(640px + (740 - 640) * ((100vw - 1024px) / (1280 - 1024)));
+    }
+}
+@media screen and (max-width: 1024px) {
+    .cover__img {
+        min-height: calc(480px + (640 - 480) * ((100vw - 768px) / (1024 - 768)));
+    }
+}
+@media screen and (max-width: 768px) {
+    .cover__img {
+        min-height: calc(200px + (480 - 200) * ((100vw - 320px) / (768 - 320)));
+    }
+}
+@media screen and (max-width: 320px) {
+    .cover__img {
+        min-height: 200px;
+        min-width: 320px;
+    }
 }

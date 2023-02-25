@@ -1,10 +1,30 @@
 .header__logo{
-  background-image: url(../../../images/logo/logo.svg);
   display: flex;
   justify-items: start;
-  height: 52px;
-  width: 176px;
+  max-width: 176px;
+  max-height: 52px;
   background-repeat: no-repeat;
   margin-top: 28px;
   margin-left: 48px;
+}
+@media screen and (max-width: 1024px) {
+  .header__logo {
+    margin-left: calc(24px + (48 - 24) * ((100vw - 768px) / (1024 - 768)));
+  }
+}
+@media screen and (max-width: 768px) {
+  .header__logo {
+    margin-left: calc(16px + (24 - 16) * ((100vw - 320px) / (768 - 320)));
+    margin-top: calc(16px + (28 - 16) * ((100vw - 320px) / (768 - 320)));
+    max-height: calc(42px + (52 - 42) * ((100vw - 320px) / (768 - 320)));
+    max-width: calc(142px + (176 - 142) * ((100vw - 320px) / (768 - 320)));
+  }
+}
+@media screen and (max-width: 320px) {
+  .header__logo {
+    margin-left: 16px;
+    margin-top: 16px;
+    max-width: 142px;
+    max-height: 42px;
+  }
 }
