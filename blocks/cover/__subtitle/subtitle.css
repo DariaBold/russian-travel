@@ -23,7 +23,7 @@
 
 @media screen and (max-width: 768px) {
     .cover__subtitle {
-        line-height: calc(16px + (22 - 16px) * ((100vw - 320px) / (768 - 320)));
+        line-height: calc(16px + (22 - 16) * ((100vw - 320px) / (768 - 320)));
         margin-bottom: calc(33px + (115 - 33) * ((100vw - 320px) / (768 - 320)));
         font-size: calc(14px + (18 - 14) * ((100vw - 320px) / (768 - 320)));
     }

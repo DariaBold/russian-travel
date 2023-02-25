@@ -28,7 +28,7 @@
 }
 @media screen and (max-width: 860px) {
     .lead__caption {
-        margin-left: calc(24px + (33 - 24) * ((100vw - 768px) / (1024 - 768)))
+        margin-left: calc(24px + (33 - 24) * ((100vw - 768px) / (1024 - 768)));
     }
 }
 @media screen and (max-width: 768px) {
