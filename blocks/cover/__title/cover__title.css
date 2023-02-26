@@ -11,9 +11,7 @@
     margin-top: 245px;
     position: relative;
 }
-.cover__img:hover {
-    opacity: 0.8;
-}
+
 @media screen and (max-width: 1280px) {
     .cover__title {
         margin-top: calc(195px + (245 - 195) * ((100vw - 1024px) / (1280 - 1024)));
