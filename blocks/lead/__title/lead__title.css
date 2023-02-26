@@ -6,7 +6,8 @@
     height: fit-content;
     max-width: 720px;
     width: 100%;
-    margin: auto;
+    padding: 0;
+    margin: 0 auto;
     padding-bottom: 32px;
     font-family: "Inter", "Arial", sans-serif;
     font-style: normal;

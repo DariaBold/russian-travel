@@ -7,18 +7,13 @@
     background-position: center center;
     background: #2A2C2F;
     opacity: 0.3;
+    left: auto;
 }
 
 @media screen and (max-width: 1280px) {
     .cover__img {
         min-height: calc(640px + (740 - 640) * ((100vw - 1024px) / (1280 - 1024)));
         max-width: calc(1024px + (1184 - 1024) * ((100vw - 1024px) / (1280 - 1024)));
-    }
-}
-
-@media screen and (max-width: 1104px) {
-    .cover__img {
-        left: 0;
     }
 }
 @media screen and (max-width: 1024px) {

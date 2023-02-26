@@ -3,7 +3,8 @@
     font-weight: 900;
     line-height: 58px;
     text-align: left;
-    margin: auto;
+    padding: 0;
+    margin: 0 auto;
     padding-bottom: 40px;
     font-family: "Inter", "Arial", sans-serif;
     font-style: normal;
