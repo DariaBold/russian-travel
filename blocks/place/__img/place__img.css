@@ -42,7 +42,7 @@
 }
 @media screen and (max-width: 495px) {
     .place__img {
-        margin: 0;
+        margin: auto;
     }
 }
 @media screen and (max-width: 320px) {
