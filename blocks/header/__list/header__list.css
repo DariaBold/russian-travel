@@ -3,6 +3,5 @@
     margin-right: 18px;
 }
 .header__list:last-child {
-    display: inline-block;
     margin-right: 0;
 }
