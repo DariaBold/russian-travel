@@ -1,0 +1,15 @@
+.footer__links{
+    grid-row: 1;
+}
+@media screen and (max-width: 423px) {
+    .footer__links {
+        display: grid;
+        grid-template-rows: repeat (6, minmax(14px, 74px));
+        gap: calc (32px - (0px + (32 - 0) * ((100vw - 320px) / (423 - 320))));
+    }
+}
+@media screen and (max-width: 320px) {
+    .footer__links {
+        gap: 32px;
+    }
+}

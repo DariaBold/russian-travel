@@ -1,14 +1,17 @@
 .cover__img {
-    background-image: url("../../../images/do-baikala.png");
-    max-height: 740px;
+    min-height: 740px;
     max-width: 1184px;
     width: 100%;
-    height: 100%;
-    display: grid;
+    position: absolute;
     grid-row: 1;
     grid-column: 1;
     margin: auto;
     background-position: center center;
+    background: #2A2C2F;
+    opacity: 0.3;
+}
+.cover__img:hover{
+    opacity: 0.8;
 }
 @media screen and (max-width: 1280px) {
     .cover__img {
@@ -28,5 +31,6 @@
 @media screen and (max-width: 320px) {
     .cover__img {
         min-height: 200px;
+        max-width: 99%;
     }
 }

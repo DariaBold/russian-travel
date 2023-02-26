@@ -1,9 +1,8 @@
-.cover{
+.cover {
     display: grid;
     margin: 92px auto 0;
     justify-content: center;
     grid-template-columns: minmax(320px, 1184px);
-    opacity: 0.8;
     max-width: 1280px;
 }
 @media screen and (max-width: 1280px) {

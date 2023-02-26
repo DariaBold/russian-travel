@@ -15,11 +15,16 @@
         line-height: calc(16px + (14 - 16) * ((100vw - 320px) / (768 - 320)));
     }
 }
-@media screen and (max-width: 320px) {
-    .footer__copyright{
+@media screen and (max-width: 470px) {
+    .footer__copyright {
         line-height: 14px;
         text-align: left;
         grid-row: 6;
+        padding-top: calc(48px - (48px + (20 - 48) * ((100vw - 320px) / (480 - 320))));;
+    }
+}
+@media screen and (max-width: 320px) {
+    .footer__copyright{
         padding-top: 48px;
     }
 }
