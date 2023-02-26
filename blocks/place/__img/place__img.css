@@ -17,7 +17,7 @@
 @media screen and (max-width: 1024px) {
     .place__img {
         margin-left: calc(24px + (48 - 24) * ((100vw - 768px) / (1024 - 768)));
-        max-width: calc(340px + (480 - 340) * ((100vw - 768px) / (1024 - 768)));
+        max-width: calc(340px + (440 - 340) * ((100vw - 768px) / (1024 - 768)));
     }
 }
 @media screen and (max-width: 768px) {

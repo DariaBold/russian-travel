@@ -1,7 +1,5 @@
 .cover__url {
     text-align: center;
-    grid-column: 1;
-    grid-row: 1;
     margin: auto;
     z-index: 1;
     color: white;
@@ -15,6 +13,7 @@
     height: 100%;
     display: flex;
     flex-direction: column;
+    background-size: contain;
 }
 
 @media screen and (max-width: 1280px) {

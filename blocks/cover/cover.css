@@ -1,8 +1,6 @@
 .cover {
-    display: grid;
     margin: 92px auto 0;
     justify-content: center;
-    grid-template-columns: minmax(320px, 1184px);
     max-width: 1280px;
 }
 @media screen and (max-width: 1280px) {
@@ -24,14 +22,8 @@
     }
 }
 
-@media screen and (max-width: 338px){
-    .cover {
-        grid-template-columns: minmax(300px, max-content);
-    }
-}
 @media screen and (max-width: 320px) {
     .cover {
         margin-top: 66px;
-        grid-template-rows: 200px;
     }
 }
