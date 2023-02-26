@@ -2,11 +2,7 @@
     min-width: 284px;
     width: 100%;
     height: 100%;
-}
-@media screen and (max-width: 1280px) {
-    .photo-grid__image {
-        max-width: calc(300px + (284 - 300) * ((100vw - 1024px) / (1280 - 1024)));
-    }
+    object-fit: cover;
 }
 @media screen and (max-width: 1024px) {
     .photo-grid__image {
