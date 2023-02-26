@@ -33,7 +33,7 @@
         max-width: 720px;
         margin-left: calc(16px + (24 - 16) * ((100vw - 320px) / (768 - 320)));
         margin-right: calc(16px + (24 - 16) * ((100vw - 320px) / (768 - 320)));
-        padding-bottom: calc(33px + (34 - 33) * ((100vw - 320px) / (768 - 320)));
+        padding-bottom: calc(34px - (0px + (1 - 0) * ((100vw - 320px) / (768 - 320))));
     }
 }
 @media screen and (max-width: 320px) {
