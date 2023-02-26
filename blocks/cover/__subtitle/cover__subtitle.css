@@ -7,27 +7,14 @@
     text-align: center;
     padding: 0;
     margin: 0 auto;
-    margin-bottom: 245px;
     font-family: "Inter", "Arial", sans-serif;
     font-style: normal;
     position: relative;
     margin-top: 32px;
 }
-@media screen and (max-width: 1280px) {
-    .cover__subtitle {
-        margin-bottom: calc(195px + (245 - 195) * ((100vw - 1024px) / (1280 - 1024)));
-    }
-}
-@media screen and (max-width: 1024px) {
-    .cover__subtitle {
-        margin-bottom: calc(115px + (195 - 115) * ((100vw - 768px) / (1024 - 768)));
-    }
-}
-
 @media screen and (max-width: 768px) {
     .cover__subtitle {
         line-height: calc(16px + (22 - 16) * ((100vw - 320px) / (768 - 320)));
-        margin-bottom: calc(33px + (115 - 33) * ((100vw - 320px) / (768 - 320)));
         font-size: calc(14px + (18 - 14) * ((100vw - 320px) / (768 - 320)));
         margin-top: calc(16px + (32 - 16) * ((100vw - 320px) / (768 - 320)));
     }

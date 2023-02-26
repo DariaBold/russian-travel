@@ -33,12 +33,12 @@
         max-width: 720px;
         margin-left: calc(16px + (24 - 16) * ((100vw - 320px) / (768 - 320)));
         margin-right: calc(16px + (24 - 16) * ((100vw - 320px) / (768 - 320)));
-        padding-bottom: calc(28px + (33 - 28) * ((100vw - 320px) / (768 - 320)));
+        padding-bottom: calc(33px + (34 - 33) * ((100vw - 320px) / (768 - 320)));
     }
 }
 @media screen and (max-width: 320px) {
     .intro__text {
         max-width: 288px;
-        padding-bottom: 28px;
+        padding-bottom: 34px;
     }
 }

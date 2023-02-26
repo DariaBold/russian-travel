@@ -1,5 +1,5 @@
 .cover__img {
-    min-height: 740px;
+    width: 100%;
     max-width: 1184px;
     width: 100%;
     position: absolute;
@@ -8,6 +8,8 @@
     background: #2A2C2F;
     opacity: 0.3;
     left: auto;
+    height: 100%;
+    top: 0;
 }
 
 @media screen and (max-width: 1280px) {

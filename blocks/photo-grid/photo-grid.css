@@ -17,12 +17,6 @@
         padding: calc(88px + (92 - 88) * ((100vw - 768px) / (1024 - 768))) calc(24px + (48 - 24) * ((100vw - 768px) / (1024 - 768)));
     }
 }
-@media screen and (max-width: 856px) {
-    .photo-grid {
-        grid-template-columns: repeat(auto-fit, minmax(2, 1fr));
-    }
-}
-
 @media screen and (max-width: 768px) {
     .photo-grid {
         grid-template-rows: repeat(auto-fit, minmax(264px, 1fr));

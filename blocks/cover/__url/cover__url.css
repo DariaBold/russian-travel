@@ -14,6 +14,8 @@
     display: flex;
     flex-direction: column;
     background-size: contain;
+    position: relative;
+    justify-content: center;
 }
 .cover__url:hover .cover__img{
     opacity: 0.8;

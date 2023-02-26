@@ -1,4 +1,4 @@
-.header__lang-link {
+.header__lang_link {
     color:white;
     font-family: "Inter", "Arial", sans-serif;
     font-style: normal;
@@ -7,16 +7,16 @@
     font-weight: 400;
     line-height: 1.66px;
 }
-.header__lang-link:hover {
+.header__lang_link:hover {
     opacity: 0.8;
 }
 @media screen and (max-width: 768px) {
-    .header__lang-link {
+    .header__lang_link {
         font-size: calc(18px + (24 - 18) * ((100vw - 320px) / (768 - 320)));
     }
 }
 @media screen and (max-width: 320px) {
-    .header__lang-link {
+    .header__lang_link {
         font-size: 18px;
     }
 }
