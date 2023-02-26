@@ -1,11 +1,7 @@
 .header__links {
     margin: 46px 48px 62px 0px;
     padding: 0;
-}
-@media screen and (max-width: 1280px) {
-    .header__links {
-        margin-right: calc(54px + (62 - 54) * ((100vw - 1024px) / (1280 - 1024)));
-    }
+    align-self: flex-end;
 }
 @media screen and (max-width: 1024px) {
     .header__links {
