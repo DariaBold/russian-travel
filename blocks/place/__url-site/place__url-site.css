@@ -1,4 +1,4 @@
-.place__url_site{
+.place__url-site{
     margin: 0;
     padding: 0;
     font-size: 18px;
@@ -9,6 +9,6 @@
     font-family: "Inter", "Arial", sans-serif;
     font-style: normal;
 }
-.place__url_site:hover{
+.place__url-site:hover{
     opacity: 0.8;
 }
