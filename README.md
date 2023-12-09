@@ -7,5 +7,5 @@
 ## Что использовано
 - CSS
 - HTML
-- Figma
+- Figma  
 Ссылка на проект <a href="https://dariabold.github.io/russian-travel/">"Путешествие по России"</a>
